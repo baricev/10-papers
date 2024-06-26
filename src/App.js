@@ -5,7 +5,7 @@ import NotFound from './NotFound';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/10-papers">
       <div className="App">
         <Routes>
           <Route path="/" element={<AlgebraicStructuresApp />} />
